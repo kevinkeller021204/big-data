@@ -1,0 +1,21 @@
+Layer-Nr,Hauptlayer,Layer (Kurz),Kriterium-Nr,Kriterium,Beschreibung
+1,Asset- & Perzeptionslayer (Physicality),Physicality,1,Native Anbindung physischer Assets,Direkte Unterstützung für Hardware-Identitäten und die Erfassung physikalischer Signale (z. B. PLC-Anbindung).
+1,Asset- & Perzeptionslayer (Physicality),Physicality,2,Support für Smart Products,"Fähigkeit, Daten nicht nur als Beiprodukt, sondern als inhärente Eigenschaft des Werkstücks/Produkts während des Entstehungsprozesses zu erfassen."
+1,Asset- & Perzeptionslayer (Physicality),Physicality,3,Synthetische Datengenerierung,Vorhandensein von Tools zur Erzeugung künstlicher Datensätze für Simulationen und KI-Training.
+2,Southbound Connectivity (Field Capture),Field Capture,4,Industrielle Protokollbreite,"Standardmäßige Unterstützung für OT-spezifische Protokolle wie OPC UA, Modbus, PROFINET oder EtherCAT."
+2,Southbound Connectivity (Field Capture),Field Capture,5,Massive Cloud-Ingestion,"Bereitstellung hochskalierbarer Endpunkte für digitale Telemetrie via MQTT, HTTP/S oder REST-APIs."
+2,Southbound Connectivity (Field Capture),Field Capture,6,Low-Power/IoT-Integration,Native Unterstützung für energieeffiziente Protokolle wie LoRaWAN oder LWM2M.
+3,Edge-Integration & Gateway-Layer (Local Logic),Local Logic,7,Containerisierung & Orchestrierung an der Edge,Standardpfad zur Bereitstellung von Logik via Docker/Kubernetes auf Edge-Hardware.
+3,Edge-Integration & Gateway-Layer (Local Logic),Local Logic,8,Agent-basierte Protokollübersetzung,"Verfügbarkeit von Software-Agents, die heterogene Felddaten in standardisierte Datenmodelle (z. B. JSON) übersetzen."
+3,Edge-Integration & Gateway-Layer (Local Logic),Local Logic,9,Lokale Echtzeit-Verarbeitung,Fähigkeit zur Ausführung von Logik mit deterministischen Latenzzeiten unter 100ms direkt vor Ort.
+4,Ingestion- & Transport-Layer (IT/OT Bridge),IT/OT Bridge,10,Data Bridge Konzepte,Unterstützung für den horizontalen Datenaustausch zwischen verschiedenen lokalen Apps ohne Umweg über die Cloud.
+4,Ingestion- & Transport-Layer (IT/OT Bridge),IT/OT Bridge,11,Managed Streaming Services,Bereitstellung von Best-in-Class-Streaming-Lösungen (z. B. Managed Kafka/Kinesis) für kontinuierliche Datenströme.
+4,Ingestion- & Transport-Layer (IT/OT Bridge),IT/OT Bridge,12,Buffering & Caching,Integrierte Mechanismen zur Sicherstellung der Datenintegrität bei Netzwerkunterbrechungen (z. B. Redis-Integration).
+5,Semantik- & Modellierungslayer (Context),Context,13,Digital Twin Frameworks,Out-of-the-box Tools zur Erstellung virtueller Abbilder physischer Assets.
+5,Semantik- & Modellierungslayer (Context),Context,14,Knowledge Graph Integration,"Fähigkeit, semantische Beziehungen zwischen verschiedenen Datenquellen automatisch abzubilden."
+5,Semantik- & Modellierungslayer (Context),Context,15,Branchenspezifische Informationsmodelle,Native Unterstützung von Industriestandards wie RAMI 4.0 oder Asset Administration Shells (AAS).
+6,Intelligence- & KI-Integration,Intelligence,16,RAG-Muster Support (Retrieval-Augmented Generation),Architekturpfade zur direkten Verknüpfung von Live-Datenströmen mit LLMs.
+6,Intelligence- & KI-Integration,Intelligence,17,Autonomous Data Operations,"KI-gestützte, autonome Überwachung von Datenflüssen zur Erkennung von Anomalien direkt bei der Erzeugung."
+7,"Governance, Security & Trust (Sovereignty)",Sovereignty,18,Unterstützung föderierter Trust-Frameworks,Integration europäischer Souveränitätsstandards wie Gaia-X oder IDSA (Labels/Credentials).
+7,"Governance, Security & Trust (Sovereignty)",Sovereignty,19,End-to-End Verschlüsselung & Identitätsmanagement,Standard-Support für hardwarenahe Sicherheit (TPM/HSM) und granulare Zugriffskontrolle (RBAC).
+7,"Governance, Security & Trust (Sovereignty)",Sovereignty,20,Datensouveränität (Usage Control),Technisches Erzwingen von Nutzungsbedingungen (Wer darf Daten wie lange nutzen?) direkt im Transport-Layer.
