@@ -7,7 +7,7 @@ Nr;Kriterium;Beschreibung
 6;Storage-Tiering & Lifecycle-Management;Automatische, regelbasierte Verschiebung von Daten zwischen Hot-, Warm- und Cold-/Archive-Storage-Tiers zur Kostenoptimierung.
 7;Skalierbarkeit (Compute & Storage);Elastische, unabhängige Skalierung von Rechen- und Speicherressourcen. Serverless-Compute und On-Demand-Cluster.
 8;Stream-Processing & Complex Event Processing;Native Stream-Processing-Engines (Flink, Spark Structured Streaming) mit Windowing, Stateful Processing und Event-Pattern-Erkennung.
-9;Analytische Query-Performance;Geschwindigkeit bei analytischen Abfragen (Scans, Aggregationen, Joins). Unterstützung für MPP-Engines (BigQuery, Synapse, Redshift, Trino).
+9;Analytische Query-Engine;Reife der analytischen Query-Engine: MPP-Architektur, automatische Query-Optimierung (Adaptive Query Execution, Predicate Pushdown), materialisierte Views, Ergebnis-Caching, Concurrency-Handling bei vielen gleichzeitigen Nutzern, Unterstützung für Standard-SQL und erweiterte Analytik-Funktionen (Window Functions, Geospatial, Approximate Queries).
 10;BI- & Visualisierungs-Integration;Native oder nahtlose Integration führender BI-Tools (Looker, Tableau, QuickSight, Grafana). Self-Service-Analytics für Fachanwender.
 11;Ad-hoc-Exploration & Notebooks;Verfügbarkeit integrierter Notebook-Umgebungen (Jupyter, Zeppelin, Databricks Notebooks, SageMaker Studio) für explorative Datenanalyse und Prototyping.
 12;ML-Plattform & AutoML;Integrierte Machine-Learning-Plattform mit AutoML für automatisierte Modellauswahl, Hyperparameter-Tuning, verteiltes Training. Managed Notebooks und Experiment-Tracking.
